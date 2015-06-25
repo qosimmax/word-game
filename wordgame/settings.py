@@ -32,12 +32,9 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'wordgame.api.fonusmedia.com',
 ]
 
-ADMINS = (
-    ('Farhodjon Chinberdiyev', 'chinberdiyev@gmail.com'),
-)
+
 
 INTERNAL_IPS = (
     '127.0.0.1',
