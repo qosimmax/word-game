@@ -1,0 +1,33 @@
+0 - WHITE
+1 - BLUE
+2- DARK BLUE
+3- RED
+4- DARK RED
+
+###
+cd D:\projects\wordgame
+python manage.py runserver 0.0.0.0:8000
+
+player register:
+http://127.0.0.01:8000/api/0.0.1/user/new/
+name=player1&serial=1234&android_reg_id=fafarqrq
+
+new game/join to game:
+
+http://127.0.0.01:8000/api/0.0.1/game/new/
+gamer_id=715c4900e30211e39199008cfa7c895f
+
+http://127.0.0.01:8000/api/0.0.1/game/new/
+gamer_id=2dbf2c30e30211e39cdb008cfa7c895f
+
+
+gamer_id=d8fbee40e4f011e3b97d008cfa7c895f
+
+turn:
+http://127.0.0.01:8000/api/0.0.1/game/turn/
+game_id=e6a2545ee4f711e39399008cfa7c895f&gamer_id=da02572ee4ef11e38ccb008cfa7c895f&coords=0&coords=1&coords=2&coords=3
+
+
+turn 2 player:
+http://127.0.0.01:8000/api/0.0.1/game/turn/
+game_id=2a3585d0e3ea11e38e2f008cfa7c895f&gamer_id=2dbf2c30e30211e39cdb008cfa7c895f&coords=0&coords=1
